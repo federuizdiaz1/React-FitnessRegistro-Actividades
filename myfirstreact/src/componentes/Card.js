@@ -1,6 +1,6 @@
 import React from 'react'
-import exerciseImg from '../images/calistenia.jpg'
-import './estilos/Card.css'
+import exerciseImg from '../images/exercise.png'
+import './estilos/Card.css'  
 
 class Card extends React.Component {
 
