@@ -1,0 +1,33 @@
+.card {
+    border: none;
+    border-radius:8px;
+    background: url('../../images/calistenia.jpg')no-repeat,linear-gradient();
+    background-color: yellow;
+}
+
+.Fitness-User-Info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.Fitness-Card{
+    max-height: 140px;
+    max-height: 520px;
+}
+.Fitness-Card-Info{
+    padding-left: 0;
+    padding-right: 75px;
+}
+.Fitness-Card-Info h1{
+    font-size: 23px;
+    color: white;
+}
+.Fitness-Add{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    height: 60px;
+}
