@@ -1,21 +1,14 @@
 .card {
+    margin-top: 20px;
     border: none;
-    border-radius:8px;
-    background: url('../../images/calistenia.jpg')no-repeat,linear-gradient();
-    background-color: yellow;
+    border-radius: 8px;
+    background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB); 
 }
-
-.Fitness-User-Info{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-}
-
-.Fitness-Card{
+.Fitness-Card {
     max-height: 140px;
-    max-height: 520px;
+    max-width: 520px;
 }
-.Fitness-Card-Info{
+.Fitness-Card-Info {
     padding-left: 0;
     padding-right: 75px;
 }
@@ -23,7 +16,11 @@
     font-size: 23px;
     color: white;
 }
-.Fitness-Add{
+.Fitness-Card-Info p{
+    font-size: 11px;
+    color: white;
+}
+.Fitness-Add {
     display: block;
     margin-left: auto;
     margin-right: auto;
