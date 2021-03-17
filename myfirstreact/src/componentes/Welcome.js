@@ -1,4 +1,5 @@
 import React from 'react'
+import './estilos/Welcome.css'
 
 function Welcome(props){
     return(
