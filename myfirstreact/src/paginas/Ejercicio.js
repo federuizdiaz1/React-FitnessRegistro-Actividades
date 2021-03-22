@@ -1,6 +1,7 @@
 import React from 'react'
-import Card from '../componentes/Card'
+import ListaEjercicio from '../componentes/ListaEjercicio'
 import Welcome from '../componentes/Welcome'
+//import AddButton from '../componentes/AddButton'
 
 class Ejercicio extends React.Component {
     constructor(props) {
@@ -35,26 +36,12 @@ class Ejercicio extends React.Component {
         return (
             <div>
                 <Welcome
-                    username="Fede"
+                    username="Fede 🍅!!"
                 />
-                {
-                    this.state.data.map((ejercicio) => {
-                        return (
-                            <Card
-                                title={ejercicio.title}
-                                description={ejercicio.description}
-                                img={ejercicio.img}
-                                leftColor={ejercicio.leftColor}
-                                rightColor={ejercicio.rightColor}
-
-                            />
-                        )
-
-                    })
-                }
-
-
-
+                <ListaEjercicio
+                    EjericioLista={this.state.data}
+                />
+               
             </div>
         )
     }
