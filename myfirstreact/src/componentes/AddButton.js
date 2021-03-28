@@ -11,8 +11,5 @@ const AddButton = () => (
             <img src={buttonImg} className="Fitness-Add" alt="ejercicio" />
         </div>
     </Link>
-
-
 )
-
 export default AddButton
