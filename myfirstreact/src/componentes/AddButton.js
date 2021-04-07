@@ -1,7 +1,7 @@
 import React from 'react'
 import './estilos/AddButton.css'
 import buttonImg from '../images/add.png'
-import { BrowserRouter, Link, Route } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 
 
 
